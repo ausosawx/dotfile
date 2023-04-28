@@ -1,0 +1,14 @@
+ctex
+fancyhdr
+lastpage
+mathtools
+jknapltx
+rsfs
+anyfontsize
+esint
+siunitx
+subfigure
+multirow
+diagbox
+pict2e
+footmisc
