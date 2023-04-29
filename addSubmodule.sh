@@ -11,7 +11,7 @@ git submodule add https://github.com/catppuccin/btop.git btop/themes
 git submodule add https://github.com/catppuccin/obs.git
 git submodule add https://github.com/catppuccin/zathura.git zathura/themes
 git submodule add https://github.com/catppuccin/cava.git cava/catppuccin
-git submodule add https://github.com/ausosawx/nvim.git
+git submodule add git@github.com:ausosawx/nvim.git
 git submodule add https://github.com/anishathalye/dotbot
 git config -f .gitmodules submodule.dotbot.ignore dirty
 cp dotbot/tools/git-submodule/install .
