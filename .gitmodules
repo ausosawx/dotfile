@@ -28,9 +28,6 @@
 [submodule "cava/catppuccin"]
 	path = cava/catppuccin
 	url = https://github.com/catppuccin/cava.git
-[submodule "nvim"]
-	path = nvim
-	url = https://github.com/ausosawx/nvim.git
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
