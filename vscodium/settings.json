@@ -9,7 +9,7 @@
   ],
   "editor.fontSize": 16,
   "editor.fontLigatures": true,
-  "editor.fontFamily": "'IosevkaTerm Nerd Font', 'Source Han Sans SC', 'IosevkaTerm Nerd Font'",
+  "editor.fontFamily": "'IosevkaTerm Nerd Font'",
   "editor.inlineSuggest.enabled": true,
   "editor.formatOnType": true,
   "editor.formatOnSave": true,
@@ -20,8 +20,6 @@
   "extensions.autoUpdate": false,
   "files.autoSave": "afterDelay",
   "files.autoGuessEncoding": true,
-  "julia.symbolCacheDownload": false,
-  "julia.enableTelemetry": false,
   "lldb.launch.terminal": "integrated",
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.cursorStyle": "underline",
@@ -29,7 +27,6 @@
   "terminal.integrated.fontSize": 16,
   "terminal.external.linuxExec": "foot",
   "terminal.integrated.customGlyphs": false,
-  "terminal.integrated.commandsToSkipShell": ["language-julia.interrupt"],
   "update.showReleaseNotes": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Catppuccin Mocha",
@@ -46,7 +43,6 @@
   "window.menuBarVisibility": "toggle",
   "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.panel.defaultLocation": "right",
-  "zotero-citation-picker.port": "http://127.0.0.1:23119/better-bibtex/cayw?minimize=1&format=playground&keyprefix=\\cite{&keypostfix=}",
   "latex-workshop.intellisense.package.enabled": true,
   "latex-workshop.latex.autoBuild.run": "never",
   "latex-workshop.latex.clean.subfolder.enabled": true,
@@ -139,23 +135,33 @@
   "latex-workshop.latex.recipes": [
     {
       "name": "XeLaTeXmk",
-      "tools": ["XeLaTeXmk"]
+      "tools": [
+        "XeLaTeXmk"
+      ]
     },
     {
       "name": "pdfLaTeXmk",
-      "tools": ["pdfLaTeXmk"]
+      "tools": [
+        "pdfLaTeXmk"
+      ]
     },
     {
       "name": "LuaLaTeXmk",
-      "tools": ["LuaLaTeXmk"]
+      "tools": [
+        "LuaLaTeXmk"
+      ]
     },
     {
       "name": "LaTeXmk-DVIPDFMx",
-      "tools": ["LaTeXmk-DVIPDFMx"]
+      "tools": [
+        "LaTeXmk-DVIPDFMx"
+      ]
     },
     {
       "name": "upLaTeXmk-DVIPDFMx",
-      "tools": ["upLaTeXmk-DVIPDFMx"]
+      "tools": [
+        "upLaTeXmk-DVIPDFMx"
+      ]
     }
   ],
   "latex-workshop.latex.clean.fileTypes": [
@@ -238,7 +244,18 @@
       ]
     }
   },
-  "python.formatting.provider": "yapf",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "python.formatting.provider": "none",
+  "isort.args": [
+    "--profile",
+    "black"
+  ],
   "git.openRepositoryInParentFolders": "never",
   "codeium.enableConfig": {
     "*": true,
