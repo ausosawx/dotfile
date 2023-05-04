@@ -4,8 +4,6 @@ acl
 adobe-source-code-pro-fonts
 adobe-source-han-sans-otc-fonts
 adobe-source-han-serif-otc-fonts
-adobe-source-sans-fonts
-adobe-source-serif-fonts
 adwaita-cursors
 adwaita-icon-theme
 alsa-card-profiles
@@ -23,7 +21,6 @@ at-spi2-core
 atkmm
 atool
 attr
-audiofile
 audit
 authy
 autoconf
@@ -61,11 +58,8 @@ cava
 cblas
 cdparanoia
 chafa
-chromaprint
 chrono-date
-cifs-utils
 clang
-clash-geoip
 clash-meta-alpha-git
 clazy
 cliphist-git
@@ -105,7 +99,6 @@ efibootmgr
 efivar
 egl-wayland
 eglexternalplatform
-electron19
 electron21
 elfutils
 elinks
@@ -138,7 +131,6 @@ findutils
 firefox-nightly-en-us
 flac
 flex
-fluidsynth
 fmt
 fontconfig
 foot
@@ -179,12 +171,12 @@ glslang
 glu
 gmp
 gnome-keyring
-gnu-free-fonts
 gnupg
 gnutls
 go
 gobject-introspection
 gobject-introspection-runtime
+goldendict-git
 gperftools
 gpgme
 gpm
@@ -208,11 +200,11 @@ gst-plugins-base-libs
 gstreamer
 gtk-layer-shell
 gtk-update-icon-cache
+gtk2
 gtk3
 gtk4
 gtkmm3
 guile
-gulp
 gumbo-parser
 gupnp
 gupnp-igd
@@ -277,7 +269,6 @@ lame
 lapack
 lazygit
 lcms2
-ldb
 ldns
 less
 lf-sixel-git
@@ -380,7 +371,7 @@ libdca
 libde265
 libdecor
 libdispatch
-libdisplay-info-git
+libdisplay-info
 libdrm
 libdvbpsi
 libdvdnav
@@ -406,7 +397,6 @@ libgcrypt
 libgirepository
 libgit2
 libglvnd
-libgme
 libgpg-error
 libgtop
 libgudev
@@ -414,7 +404,6 @@ libheif
 libical
 libice
 libiconv
-libid3tag
 libidn
 libidn2
 libiec61883
@@ -424,7 +413,6 @@ libimobiledevice
 libindicator-gtk3
 libinih
 libinput
-libinstpatch
 libisl
 libixion
 libjpeg-turbo
@@ -443,9 +431,7 @@ libmaxminddb
 libmd
 libmfx
 libmicrodns
-libmikmod
 libmm-glib
-libmms
 libmng
 libmnl
 libmodplug
@@ -453,7 +439,6 @@ libmpc
 libmpcdec
 libmpdclient
 libmpeg2
-libmspack
 libmspub
 libmtp
 libmwaw
@@ -463,7 +448,6 @@ libnet
 libnetfilter_conntrack
 libnewt
 libnfnetlink
-libnfs
 libnftnl
 libnghttp2
 libnice
@@ -508,8 +492,6 @@ libsamplerate
 libsasl
 libseccomp
 libsecret
-libshout
-libsidplayfp
 libsigc++
 libsigc++-3.0
 libsm
@@ -554,7 +536,6 @@ libvorbis
 libvpx
 libvterm
 libwacom
-libwbclient
 libwebp
 libwireplumber
 libwpd
@@ -614,6 +595,8 @@ lmdb
 lpsolve
 lsof
 lua
+lua51
+lua51-lpeg
 luajit
 luarocks
 lv2
@@ -642,7 +625,6 @@ mkinitcpio-busybox
 mobile-broadband-provider-info
 moreutils
 mpc
-mpd
 mpfr
 mpg123
 mpv
@@ -651,7 +633,6 @@ mtdev
 mtr
 mujs
 namcap-git
-ncmpcpp
 ncurses
 ndctl
 neofetch
@@ -666,14 +647,15 @@ nm-connection-editor
 node-gyp
 nodejs
 nodejs-nopt
+noto-fonts-git
 npm
 npth
 nspr
 nss
 ntfs-3g
+nvchecker-git
 nvidia-dkms
 nvidia-utils
-nvm
 obs-studio
 ocl-icd
 oniguruma
@@ -687,7 +669,6 @@ openpmix
 opensmtpd
 openssh
 openssl
-openssl-1.1
 opus
 orc
 os-prober
@@ -756,11 +737,18 @@ python-markupsafe
 python-msgpack
 python-numpy
 python-pillow
+python-platformdirs
 python-psutil
+python-pycurl
 python-pyelftools
 python-pynvim
 python-requests
 python-six
+python-structlog
+python-tomli
+python-tornado
+python-tqdm
+python-typing_extensions
 python-urllib3
 qt5-base
 qt5-declarative
@@ -833,7 +821,6 @@ runc
 rustup
 sbc
 sbcl
-scdoc
 sdl2
 seatd
 sed
@@ -845,7 +832,6 @@ shared-mime-info
 slang
 slurp
 smartmontools
-smbclient
 snappy
 sndio
 sord
@@ -869,12 +855,10 @@ systemd
 systemd-libs
 systemd-sysvcompat
 taglib
-talloc
 tar
 tcl
 tdb
 telegram-desktop
-tevent
 texinfo
 thin-provisioning-tools
 thunar
@@ -892,13 +876,11 @@ tre
 tree
 tree-sitter
 tslib
-ttf-arphic-ukai
+ttf-iosevkaterm-nerd
 ttf-opensans
-ttf-sourcecodepro-nerd
 ttf-twemoji
 tumbler
 tutanota-desktop-bin
-twolame
 typst
 tzdata
 uchardet
@@ -923,7 +905,6 @@ vulkan-headers
 vulkan-icd-loader
 vulkan-intel
 vulkan-validation-layers
-wavpack
 waybar-hyprland-git
 wayland
 wayland-protocols
@@ -931,15 +912,12 @@ webrtc-audio-processing
 wev-git
 wget
 which
-wildmidi
 wireplumber
 wl-clipboard
 wlogout
 woff2
 wofi
 wpa_supplicant
-wxwidgets-common
-wxwidgets-gtk3
 x264
 x265
 xarchiver
@@ -963,9 +941,7 @@ xmlsec
 xorg-fonts-encodings
 xorg-server
 xorg-server-common
-xorg-server-xvfb
 xorg-setxkbmap
-xorg-xauth
 xorg-xinput
 xorg-xkbcomp
 xorg-xprop
@@ -976,10 +952,7 @@ xorgproto
 xvidcore
 xxhash
 xz
-yajl
 yaml-cpp
-yapf
-yarn
 yt-dlp
 zathura
 zathura-pdf-poppler
@@ -991,4 +964,3 @@ zotero-bin
 zsh
 zstd
 zxing-cpp
-zziplib

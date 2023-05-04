@@ -1,7 +1,5 @@
 adobe-source-han-sans-otc-fonts
 adobe-source-han-serif-otc-fonts
-adobe-source-sans-fonts
-adobe-source-serif-fonts
 archlinux-keyring
 archlinuxcn-keyring
 aria2
@@ -68,6 +66,7 @@ git-lfs
 github-cli
 gnome-keyring
 go
+goldendict-git
 graphicsmagick
 graphite-cursor-theme-git
 grep
@@ -76,6 +75,7 @@ groff
 grub
 gsl
 gspell
+gtk2
 gtk4
 gvfs
 gvfs-mtp
@@ -151,11 +151,9 @@ maxima-sbcl
 mesa-utils
 moreutils
 mpc
-mpd
 mpv
 mtr
 namcap-git
-ncmpcpp
 neofetch
 neon
 neovim-git
@@ -163,8 +161,10 @@ network-manager-applet
 networkmanager
 nexttrace-git
 nodejs
+noto-fonts-git
 npm
 ntfs-3g
+nvchecker-git
 nvidia-dkms
 obs-studio
 opensmtpd
@@ -248,8 +248,7 @@ tlp-rdw
 traceroute
 trash-cli
 tree
-ttf-arphic-ukai
-ttf-sourcecodepro-nerd
+ttf-iosevkaterm-nerd
 ttf-twemoji
 tumbler
 tutanota-desktop-bin
@@ -271,7 +270,6 @@ wofi
 xarchiver
 xdg-desktop-portal-hyprland-git
 xmlsec
-yapf
 yt-dlp
 zathura
 zathura-pdf-poppler
