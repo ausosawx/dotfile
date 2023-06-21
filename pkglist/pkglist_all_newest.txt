@@ -71,8 +71,9 @@ cronie
 cryptsetup
 ctpv-git
 curl
-dae-git
+dae
 dav1d
+db
 db5.3
 dbeaver
 dbus
@@ -83,7 +84,6 @@ default-cursors
 desktop-file-utils
 device-mapper
 diffutils
-dkms
 dmraid
 dnssec-anchors
 docker
@@ -98,6 +98,7 @@ efivar
 egl-wayland
 eglexternalplatform
 electron21
+electron24
 elfutils
 elinks
 enchant
@@ -514,6 +515,7 @@ liburcu
 liburing
 libusb
 libusbmuxd
+libutempter
 libutf8proc
 libuv
 libva
@@ -570,11 +572,11 @@ libzmf
 licenses
 light
 lilv
+linux
 linux-api-headers
 linux-firmware
 linux-firmware-whence
-linux-zen
-linux-zen-headers
+linux-headers
 litehtml
 lldb
 llvm
@@ -625,7 +627,6 @@ neovim-git
 nettle
 network-manager-applet
 networkmanager
-nexttrace-git
 ninja
 nm-connection-editor
 node-gyp
@@ -638,7 +639,7 @@ nspr
 nss
 ntfs-3g
 nvchecker-git
-nvidia-dkms
+nvidia
 nvidia-utils
 obs-studio
 ocl-icd

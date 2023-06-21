@@ -27,7 +27,7 @@ cliphist-git
 clucene
 cronie
 ctpv-git
-dae-git
+dae
 dbeaver
 debugedit
 docker
@@ -128,9 +128,9 @@ libwps
 libxcrypt-compat
 libzmf
 light
+linux
 linux-firmware
-linux-zen
-linux-zen-headers
+linux-headers
 lldb
 llvm
 lpsolve
@@ -148,13 +148,12 @@ neon
 neovim-git
 network-manager-applet
 networkmanager
-nexttrace-git
 nodejs
 noto-fonts-git
 npm
 ntfs-3g
 nvchecker-git
-nvidia-dkms
+nvidia
 obs-studio
 opensmtpd
 os-prober
