@@ -52,7 +52,6 @@ ca-certificates-utils
 cairo
 cairomm
 cantarell-fonts
-catppuccin-mocha-grub-theme-git
 cava
 cblas
 cdparanoia
@@ -185,6 +184,7 @@ grep
 grim
 groff
 grub
+grub-theme-vimix
 gsettings-desktop-schemas
 gsl
 gsm

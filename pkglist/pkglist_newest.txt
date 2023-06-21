@@ -18,7 +18,6 @@ blueman
 bluez-utils
 box2d
 btop
-catppuccin-mocha-grub-theme-git
 cava
 chafa
 clang
@@ -69,6 +68,7 @@ grep
 grim
 groff
 grub
+grub-theme-vimix
 gsl
 gspell
 gtk2

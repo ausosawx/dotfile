@@ -104,7 +104,7 @@ $ clash-meta -d . # get your config.yaml first
 | blueman                          | Bluetooth Manager                                        | None                                                                |
 | bluez-utils                      | Development and debugging utilities for the bluetooth    | None                                                                |
 | btop                             | system monitor                                           | None                                                                |
-| catppuccin-mocha-grub-theme-git  | grub theme(AUR)                                          | None                                                                |
+| grub-theme-vimix                 | grub theme                                               | None                                                                |
 | cava                             | Audio Visualizer                                         | None                                                                |
 | chafa                            | Image-to-text converter(for foot terminal preview)       | None                                                                |
 | clang                            | C language family frontend for LLVM                      | None                                                                |
