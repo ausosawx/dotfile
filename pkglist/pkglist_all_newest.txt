@@ -83,7 +83,6 @@ default-cursors
 desktop-file-utils
 device-mapper
 diffutils
-dmraid
 dnssec-anchors
 docker
 dog
@@ -96,7 +95,6 @@ efibootmgr
 efivar
 egl-wayland
 eglexternalplatform
-electron21
 electron24
 elfutils
 elinks
@@ -201,7 +199,6 @@ gtk3
 gtk4
 gtkmm3
 guile
-gumbo-parser
 gupnp
 gupnp-igd
 gvfs
@@ -333,7 +330,6 @@ libasyncns
 libatasmart
 libatomic_ops
 libavc1394
-libavif
 libb2
 libblockdev
 libbluray
@@ -401,7 +397,6 @@ libidn2
 libiec61883
 libime-git
 libimobiledevice
-libindicator-gtk3
 libinih
 libinput
 libisl
@@ -567,7 +562,6 @@ libxtst
 libxv
 libxxf86vm
 libyaml
-libyuv
 libzmf
 licenses
 light
@@ -577,7 +571,6 @@ linux-api-headers
 linux-firmware
 linux-firmware-whence
 linux-headers
-litehtml
 lldb
 llvm
 llvm-libs
@@ -661,6 +654,7 @@ otf-font-awesome
 p11-kit
 p7zip
 pacman
+pacman-contrib
 pacman-mirrorlist
 pahole
 pam
@@ -830,7 +824,6 @@ sudo
 svt-av1
 swaybg-git
 swaylock
-sysfsutils
 systemd
 systemd-libs
 systemd-sysvcompat
