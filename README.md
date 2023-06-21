@@ -112,7 +112,7 @@ $ clash-meta -d . # get your config.yaml first
 | cliphist-git                     | clipboard history "manager"                              | None                                                                |
 | cronie                           | scheduled daemon                                         | None                                                                |
 | ctpv-git                         | Fast image previews for lf                               | None                                                                |
-| dae-git                          | transparent proxy                                        | None                                                                |
+| dae                              | transparent proxy                                        | None                                                                |
 | dbeaver                          | SQL Client                                               | None                                                                |
 | docker                           | lightweight container                                    | None                                                                |
 | dog                              | Command-line DNS client like dig                         | None                                                                |
@@ -166,7 +166,6 @@ $ clash-meta -d . # get your config.yaml first
 | neofetch                         | display system information                               | None                                                                |
 | neovim-git                       | editor                                                   | None                                                                |
 | network-manager-applet           | Applet for managing network connections                  | None                                                                |
-| nexttrace-git                    | visual route tracking CLI tool                           | None                                                                |
 | nodejs                           |                                                          |                                                                     |
 | noto-fonts-git                   | Google Noto TTF fonts(include additional variants)       | None                                                                |
 | npm                              | package manager for javascript                           | None                                                                |
@@ -228,7 +227,7 @@ $ paru -S lib32-mesa vulkan-intel lib32-vulkan-intel mesa-utils libva-utils
 $ paru -S intel-media-driver (firefox hardware video acceleration)
 
 # nvidia:
-$ paru -S nvidia-dkms
+$ paru -S nvidia
 ```
 
 Remember to `reboot` to let it take effect.
