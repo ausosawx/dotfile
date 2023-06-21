@@ -158,6 +158,7 @@ $ clash-meta -d . # get your config.yaml first
 | lldb                             | debugger                                                 | None                                                                |
 | llvm                             | Compiler infrastructure                                  | None                                                                |
 | man-db                           | reading man pages                                        | None                                                                |
+| pacman-contrib                   | package dependency tree viewer                           | None                                                                |
 | mariadb                          | SQL database server                                      | None                                                                |
 | moreutils                        | growing collection of the unix tools                     | None                                                                |
 | mpv                              | media playe                                              | None                                                                |
