@@ -6,7 +6,7 @@ if [ ! -f /etc/arch-release ] ; then
 fi
 
 # Check for updates
-ofc=$(paru -Qua | wc -l)
+ofc=$(paru -Qu | wc -l)
 
 # Calculate total available updates
 upd=$((ofc))

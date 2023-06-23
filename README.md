@@ -131,7 +131,6 @@ $ clash-meta -d . # get your config.yaml first
 | firefox-nightly-en-us            | browser                                                  | pipewire related                                                    |
 | foot                             | terminal                                                 | foot-terminfo                                                       |
 | fzf                              | fuzzy finder                                             | None                                                                |
-| gammastep                        | Adjust the color temperature                             | None                                                                |
 | github-cli                       | The GitHub CLI                                           | None                                                                |
 | gnome-keyring                    | Stores passwords and encryption keys                     | None                                                                |
 | go                               | mainly for local compilation(dae-git)                    | None                                                                |
@@ -187,8 +186,7 @@ $ clash-meta -d . # get your config.yaml first
 | rustup                           | Rust toolchain installer                                 | None                                                                |
 | slurp                            | Select a region in a Wayland compositor                  | None                                                                |
 | spotify                          | music player                                             | None                                                                |
-| swaybg-git                       | Wallpaper tool                                           | None                                                                |
-| swaylock                         | Screen locker for Wayland                                | None                                                                |
+| swaylock-effects                 | Screen locker for Wayland                                | None                                                                |
 | telegram-desktop                 |                                                          |                                                                     |
 | thunar                           | file manager                                             | gvfs thunar-volman thunar-archive-plugin tumbler(ffmpegthumbnailer) |
 | tlp                              | Linux Advanced Power Management                          | tlp-rdw smartmontools ethtool                                       |
@@ -208,13 +206,14 @@ $ clash-meta -d . # get your config.yaml first
 | wget                             | retrieve files from the Web                              | None                                                                |
 | wl-clipboard                     | Command-line copy/paste utilities for Wayland            | None                                                                |
 | wlogout                          | Logout menu for wayland                                  | None                                                                |
-| wofi                             | Application launcher for Wayland                         | None                                                                |
 | xarchiver                        | GTK+ frontend to various command line archivers          | zip p7zip                                                           |
 | xdg-desktop-portal-hyprland-git  | xdg-desktop-portal backend for hyprland                  | None                                                                |
 | yt-dlp                           | youtube-dl fork                                          | None                                                                |
 | zathura                          | pdf reader                                               | zathura-pdf-poppler                                                 |
 | zotero-bin                       | research organize                                        | None                                                                |
 | zsh                              | shell                                                    | None                                                                |
+| swappy                           | A Wayland native snapshot and editor tool                | None                                                                |
+| swww-git                         | Wayland Wallpaper daemon                                 | None                                                                |
 
 ### Graphics
 
