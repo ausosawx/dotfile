@@ -10,6 +10,6 @@ kill $process_id
 
 pkill swaybg
 #-- Now freshly start the process in the background --#
-bash "$HOME/.config/system_scripts/background-changer" &
+bash "$HOME/.config/scripts/background-changer" &
 
 #-- You can add multiple processes here to prevent their respawns --#
