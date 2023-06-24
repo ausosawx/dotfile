@@ -214,6 +214,8 @@ $ clash-meta -d . # get your config.yaml first
 | zsh                              | shell                                                    | None                                                                |
 | swappy                           | A Wayland native snapshot and editor tool                | None                                                                |
 | swww-git                         | Wayland Wallpaper daemon                                 | None                                                                |
+| qt6ct                            | Qt6 Configuration Tool                                   | None                                                                |
+| kvantum                          | VG-based theme engine for Qt4/Qt5                        | None                                                                |
 
 ### Graphics
 
