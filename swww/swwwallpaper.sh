@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-## define functions ##
+## define functions
 Wall_Prev()
 {
     for (( i=0 ; i<${#Wallist[@]} ; i++ ))
@@ -42,7 +42,7 @@ Wall_Set()
     --transition-pos bottom-right
 }
 
-## set variables ##
+## set variables
 BaseDir=`dirname $(realpath $0)`
 
 if [ `grep '^1|' $BaseDir/wall.ctl | wc -l` -ne 1 ] ; then
