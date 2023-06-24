@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "bash ~/.config/scripts/wayland_session_lock",
+    "action" : "swaylock",
     "text" : "Lock",
     "keybind" : "l"
 }
